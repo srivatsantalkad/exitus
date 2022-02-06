@@ -1,49 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <title>about page</title>
-    <meta charset = "UTF-8">
 
-
+<head>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
 </head>
 
 <body>
-    <div class="header">
-        <div class="home-button"></div>
-        <div class="contact-button"></div>
-        <div class="login-button"></div>
+    <form class="contact-container" action="../index.html">
+        <label class="name" for="name">Name</label>
+        <input type="text" placeholder="Name">
+
+        <label class="email" for="email">Email</label>
+        <input type="text" placeholder="Name">
+
+        <label class="subject" for="subject"></label>
+        <textarea placeholder="subject" style="height: 150px"></textarea>
+
+        <input class="send" type="submit" value="Send">
+    </form>
     </div>
-
-        <div>
-            <div class="contact-text">CONTACT INFO</div>
-            <div class="contact-entry-1">
-        
-                <div class="contact-entry-name">Name:</div>
-                <input>
-
-            </div>
-            <div class="contact-entry-2">
-        
-                <div class="contact-entry-email">Email:</div>
-                <input>
-
-            </div>
-            <div class="contact-entry-3">
-        
-                <div class="contact-entry-message">Message:</div>
-                <input>
-
-            </div>
-            <input type="submit">
-
-        </div>
-
-
 </body>
-
-
-
-
-
 
 </html>
