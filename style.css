@@ -5,7 +5,7 @@ body {
 
 .header {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
     gap: 1em;
     padding: 1em;
@@ -17,6 +17,11 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
+.header-buttons{
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+}
 .header-button:hover {
     filter: brightness(80%);
 }
@@ -49,16 +54,26 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1em;
+    gap: 5em;
 }
 
 .cause-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-basis: 0;
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
+    height: 300px;
+    width: 600px;
+    border-radius: 10px;
 }
 
+.cause-text {
+    margin:auto;
+
+}
 .team-container {
     display: flex;
     flex-direction: row;
