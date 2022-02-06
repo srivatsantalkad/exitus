@@ -1,0 +1,43 @@
+/* ADDITIONAL INFO COMPONENT */
+.additional-info {
+    padding: 1em;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.additional-info .info-header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.additional-info .info-header-text {
+    color: rgb(39, 39, 39);
+    font-size: 30px;
+}
+.additional-info .team-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 5em;   
+}
+
+.additional-info .member-contianer {
+    display: flex;
+    flex-flow: column nowrap;
+}   
+
+.additional-info .member-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.additional-info .member-desc-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

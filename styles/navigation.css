@@ -1,0 +1,39 @@
+/* NAVIGATION COMPONENT */
+.navigation-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.navigation-div .nav-logo {
+    height: auto;
+    width: 15vw;
+}
+
+.navigation-div .nav-buttons-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
+    margin-right: 1em;
+}
+
+.navigation-div #login {
+    color: white;
+    background-color: rgb(19, 128, 19);
+}
+
+.navigation-div .nav-button {
+    color: rgb(39, 39, 39);
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    
+    border-radius: 7%;
+}
+
+
+.nav-button:hover {
+    filter: brightness(90%);
+    cursor: pointer;    
+}
