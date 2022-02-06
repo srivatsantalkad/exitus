@@ -1,0 +1,16 @@
+/* ALL ELEMENTS */
+* {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";    padding: 0.1em;
+}
+
+/* OVERALL STRUCTURE OF PAGE */
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 3em;
+    background-color: rgb(254, 255, 254);
+}
+
+a {
+    all: unset;
+}
