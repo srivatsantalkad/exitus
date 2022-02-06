@@ -11,6 +11,10 @@ body {
     padding: 1em;
 }
 
+.logo {
+    height:auto ;
+    width: 540px;
+}
 .header-button {
     padding: 1em;
     border: 1px solid black;
