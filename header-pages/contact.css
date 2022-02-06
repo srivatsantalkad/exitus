@@ -1,0 +1,44 @@
+/* ALL ELEMENTS */
+* {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";    padding: 0.1em;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+.contact-container {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 50%;
+    padding: 1em;
+    gap: 1em;
+}
+.name {
+    padding: 1em;       
+}
+
+.email {
+    padding: 1em;
+}
+
+.subject {
+    padding: 1em;
+}
+
+.send {
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    color: rgb(39, 39, 39);
+    padding: 1em;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;    
+    border-radius: 7%;
+}
+
+.send:hover {
+    filter: brightness(90%);
+}
