@@ -31,3 +31,7 @@
 .send:hover {
     filter: brightness(90%);
 }
+
+a {
+    all: unset;
+}

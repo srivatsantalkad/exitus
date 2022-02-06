@@ -10,3 +10,7 @@ body {
     gap: 3em;
     background-color: rgb(254, 255, 254);
 }
+
+a {
+    all: unset;
+}
